@@ -1,4 +1,9 @@
-#pictureDesc {
+#aboutDesc {
+    font-size: 18px;
+    text-align: center;
+}
+
+#positionsDesc {
     font-size: 18px;
     text-align: right;
 }
@@ -29,6 +34,7 @@
 }
 
 .home {
+    position: relative;
     background-color: red;
     padding-top: 80px;
     height: 800px;
@@ -43,6 +49,7 @@
 }
 
 .about {
+    position: relative;
     color: red;
     height: 800px;
     padding-top: 100px;
@@ -57,13 +64,15 @@
 }
 
 .about img {
-    height: auto;
+    width: 100%;
     margin: auto;
     display: block;
     margin-top: 50px;
+    overflow: hidden;
 }
 
 .positions {
+    position: relative;
     color: white;
     background-color: blue;
     height: 800px;
@@ -84,6 +93,5 @@
     width: 110%;
     overflow: hidden;
     margin: auto;
-    text-align: center;
     display: block;
 }
