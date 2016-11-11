@@ -1,11 +1,6 @@
-#aboutDesc {
+#photoCaption {
     font-size: 18px;
     text-align: center;
-}
-
-#positionsDesc {
-    font-size: 18px;
-    text-align: right;
 }
 
 #navoptions a {
@@ -19,7 +14,7 @@
 }
 
 #homedesc {
-    margin-top: 150px;
+    font-size: 80%;
 }
 
 .topbar {
@@ -45,7 +40,7 @@
 }
 
 .home img {
-    max-width: 900px;
+    max-width: 80%;
 }
 
 .about {
@@ -53,7 +48,8 @@
     color: red;
     height: 800px;
     padding-top: 100px;
-    font-size: 28px;
+    font-size: 150%;
+    font-size-adjust: auto;
     width: 100%;
 }
 
@@ -72,11 +68,13 @@
 }
 
 .positions {
+    padding-top: 50px;
     position: relative;
     color: white;
     background-color: blue;
     height: 800px;
-    font-size: 28px;
+    font-size: 145%;
+    font-size-adjust: auto;
     width: 100%;
 }
 
@@ -89,7 +87,6 @@
 }
 
 .positions img {
-    padding-top: 80px;
     width: 110%;
     overflow: hidden;
     margin: auto;
